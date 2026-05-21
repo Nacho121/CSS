@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enlaces {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}

@@ -1,0 +1,23 @@
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 calc(25% - 10px);   /* 4 columnas por defecto */
+  min-width: calc(25% - 10px);
+}
+
+@media (max-width: 899px) {
+  .item {
+    flex: 1 1 calc(50% - 10px); /* 2 columnas */
+    min-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 599px) {
+  .item {
+    flex: 1 1 100%;             /* 1 columna */
+    min-width: 100%;
+  }
+}

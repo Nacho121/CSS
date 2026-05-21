@@ -1,0 +1,11 @@
+.contenedor {
+  display: flex;
+}
+
+.tercero {
+  order: -1;  /* aparece primero */
+}
+
+.primero {
+  order: 1;   /* aparece último */
+}
