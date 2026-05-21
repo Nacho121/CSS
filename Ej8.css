@@ -1,0 +1,16 @@
+.contenedor {
+  display: flex;
+  width: 600px;
+}
+
+.a {
+  flex-grow: 1;
+}
+
+.b {
+  flex-grow: 2;
+}
+
+.c {
+  flex-grow: 1;
+}
